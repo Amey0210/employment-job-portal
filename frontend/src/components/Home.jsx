@@ -18,11 +18,16 @@ const Home = () => {
     }
   }, []);
   return (
-    <div>
+    <div className='bg-[#f8fafc] min-h-screen'> {/* Added a very light slate background */}
       <Navbar />
-      <HeroSection />
-      <CategoryCarousel />
-      <LatestJobs />
+      <div className='relative'>
+        {/* Abstract Background Blur (Adds a premium feel) */}
+        <div className='absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-4xl h-64 bg-indigo-100/50 blur-[120px] rounded-full -z-10' />
+        
+        <HeroSection />
+        <CategoryCarousel />
+        <LatestJobs />
+      </div>
       <Footer />
     </div>
   )

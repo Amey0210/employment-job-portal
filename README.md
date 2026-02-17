@@ -16,6 +16,16 @@ A full-stack job portal built using MongoDB, Express.js, React.js, and Node.js, 
 
 ---
 
+## Project Structure
+
+```text
+├── backend/          # Node.js & Express server, Models, Controllers, Routes
+├── frontend/         # React.js application (Vite), Redux slices, Components
+└── README.md         # Documentation
+```
+
+---
+
 ## Key Features
 
 ### For Students (Job Seekers)
@@ -31,9 +41,7 @@ A full-stack job portal built using MongoDB, Express.js, React.js, and Node.js, 
 
 ---
 
-## Project Structure
+## Live Demo
 
-```text
-├── backend/          # Node.js & Express server, Models, Controllers, Routes
-├── frontend/         # React.js application (Vite), Redux slices, Components
-└── README.md         # Documentation
+* **Frontend:** https://employment-job-portal.vercel.app
+* **Backend API:** https://employment-job-portal.onrender.com
